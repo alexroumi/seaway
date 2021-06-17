@@ -1,0 +1,139 @@
+/* 
+ Seaway CSS
+ Version: 0.1.0
+ */
+
+/* general */
+
+:root {
+    --main_color: #018fd6;
+    --main_hover: #0178b4;
+    --danger_bg_color: #ffc107;
+    --danger_color: #343a40;
+    --danger_hover: #282d31;
+    --red_accent: #dd2f2f;
+    --info_color: white;
+    --danger_weight: bold;
+    --banner_title_size: 30px;
+    --main_radius: 5px;
+    --border_settings: 2px solid var(--main_color);
+    --main_padding: 2px 2px;
+    --padding_banner: 5px 7px;
+    --pill_radius: 200000px;
+    --pill_padding: 2.5px 5px;
+    font-family: roboto;
+  }
+  
+  .danger {
+    background-color: var(--danger_bg_color);
+    color: var(--danger_color);
+    font-weight: var(--danger_weight);
+  }
+  
+  .information {
+    background-color: var(--main_color);
+    color: var(--info_color);
+    font-weight: var(--danger_weight);
+  }
+  
+  .warning {
+    background-color: white;
+    color: var(--red_accent);
+    font-weight: var(--danger_weight);
+  }
+  
+  /* input styles */
+  
+  input {
+    outline: none;
+    padding: var(--main_padding);
+    border-radius: var(--main_radius);
+    border: var(--border_settings);
+  }
+  
+  textarea {
+    outline: none;
+    padding: var(--main_padding);
+    border-radius: var(--main_radius);
+    border: var(--border_settings);
+  }
+  
+  input[type="submit"] {
+    all: unset;
+    background-color: var(--main_color);
+    padding: 10px 15px;
+    color: white;
+    border-radius: var(--main_radius);
+  }
+  
+  input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: var(--main_hover);
+  }
+  
+  input[type="reset"] {
+    all: unset;
+    background-color: var(--danger_color);
+    padding: 10px 15px;
+    color: white;
+    border-radius: var(--main_radius);
+  }
+  
+  input[type="reset"]:hover {
+    cursor: pointer;
+    background-color: var(--danger_hover);
+  }
+  
+  button {
+    all: unset;
+    background-color: var(--main_color);
+    padding: 10px 15px;
+    color: white;
+    border-radius: var(--main_radius);
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-color: var(--main_hover);
+  }
+  
+  /* banner styles */
+  
+  .banner_content {
+    font-weight: normal;
+  }
+  
+  /* danger */
+  
+  .banner {
+    border-radius: var(--main_radius);
+    padding: var(--padding_banner);
+    margin: 10px 5px;
+  }
+  
+  .banner > .banner_title {
+    font-size: var(--banner_title_size);
+  }
+  
+  select {
+    padding: var(--main_padding);
+    border-radius: var(--main_radius);
+    border: var(--border_settings);
+  }
+  
+  select:focus {
+    border-bottom: none !important;
+    border-radius: var(--main_radius) var(--main_radius) 0px 0px;
+    border-top: var(--border_settings);
+    border-left: var(--border_settings);
+    border-right: var(--border_settings);
+  }
+  
+  /* pill styles */
+  
+  .badge {
+    display: inline-block;
+    border-radius: var(--pill_radius);
+    padding: var(--pill_padding);
+  }
+  
