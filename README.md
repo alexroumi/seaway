@@ -6,7 +6,8 @@ Custom CSS framework made for https://www.marinabookings.gr/
 
 ## Installation 
 
-Add the following to your html <head>
+1. Download the `Seaway` [css](./seaway.css) file
+1. Add the following to your html <head>
 
 ```html
   <link rel="stylesheet" href="seaway.css" />
@@ -19,8 +20,8 @@ Add the following to your html <head>
 
 | Parameters | Type     | 
 | :-------- | :------- | 
-| `banner danger` | `danger` | 
-| `banner information` | `information` | 
+| `banner danger` | danger | 
+| `banner information` | information | 
 
 Sample
 
@@ -34,9 +35,9 @@ Sample
 
 | Parameters | Type     | 
 | :-------- | :------- | 
-| `badge danger` | `danger` | 
-| `badge information` | `information` | 
-| `badge warning` | `warning` | 
+| `badge danger` | danger | 
+| `badge information` | information | 
+| `badge warning` | warning | 
 
 Sample
 
