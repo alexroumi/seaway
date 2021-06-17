@@ -10,8 +10,6 @@ Custom CSS framework made for https://www.marinabookings.gr/
 
 1. Download the `Seaway` [css](./seaway.css) file
 1. Add the following to your html <head>
-  
-  [go](http://stackoverflow.com){:target="_blank" rel="noopener"}
 
 ```html
   <link rel="stylesheet" href="seaway.css" />
