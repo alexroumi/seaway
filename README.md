@@ -1,4 +1,6 @@
 
+markdown: kramdown
+
 # Seaway CSS v0.1.0
 
 Custom CSS framework made for https://www.marinabookings.gr/
