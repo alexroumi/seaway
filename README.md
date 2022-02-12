@@ -1,45 +1,51 @@
-
 markdown: kramdown
+
+<link rel="stylesheet" href="seaway.css">
 
 # Seaway CSS v0.1.0
 
 Custom CSS framework made for https://www.marinabookings.gr/
 
-
-## Installation 
+## Installation
 
 1. Download the `Seaway` [css](./seaway.css) file
 1. Add the following to your html <head>
 
 ```html
-  <link rel="stylesheet" href="seaway.css" />
+<link rel="stylesheet" href="seaway.css" />
 ```
-    
+
 ## CSS Class Reference
 
 #### Banners
 
-
-| Parameters | Type     | 
-| :-------- | :------- | 
-| `banner danger` | danger | 
-| `banner information` | information | 
+| Parameters           | Type        |
+| :------------------- | :---------- |
+| `banner danger`      | danger      |
+| `banner information` | information |
 
 Sample
 
 ```html
 <div class="banner danger">
+  <div class="banner_title">Title</div>
+  <div class="banner_content">main content</div>
+</div>
+```
+
+<div class="banner danger">
     <div class="banner_title">Title</div>
     <div class="banner_content">main content</div>
 </div>
-```
+Output
+
 #### Pills
 
-| Parameters | Type     | 
-| :-------- | :------- | 
-| `badge danger` | danger | 
-| `badge information` | information | 
-| `badge warning` | warning | 
+| Parameters          | Type        |
+| :------------------ | :---------- |
+| `badge danger`      | danger      |
+| `badge information` | information |
+| `badge warning`     | warning     |
 
 Sample
 
@@ -49,5 +55,8 @@ Sample
 <div class="badge warning">warning</div>
 ```
 
+Output
 
-  
+<div class="badge danger">danger</div>
+<div class="badge information">info</div>
+<div class="badge warning">warning</div>
