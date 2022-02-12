@@ -35,9 +35,11 @@ Sample
 
 Output
 
-<div class="banner danger">
-    <div class="banner_title">Title</div>
-    <div class="banner_content">main content</div>
+<div class="banner danger" style=" border-radius: var(--main_radius);
+    padding: var(--padding_banner);
+    margin: 10px 5px;">
+    <div class="banner_title" style="font-size: var(--banner_title_size);">Title</div>
+    <div class="banner_content" style="font-weight: normal;">main content</div>
 </div>
 
 #### Pills
