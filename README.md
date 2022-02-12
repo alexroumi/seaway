@@ -33,11 +33,12 @@ Sample
 </div>
 ```
 
+Output
+
 <div class="banner danger">
     <div class="banner_title">Title</div>
     <div class="banner_content">main content</div>
 </div>
-Output
 
 #### Pills
 
